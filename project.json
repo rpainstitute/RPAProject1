@@ -1,17 +1,18 @@
 {
-  "name": "GitProject",
+  "name": "BlankProcess2",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.4]",
-    "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.System.Activities": "[21.10.3]",
-    "UiPath.UIAutomation.Activities": "[21.10.4]"
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.4.0",
+  "studioVersion": "22.4.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -39,21 +40,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "13363f1b-54e2-41bc-a9e8-4c60164a60e0",
-        "dataVariationFilePath": ".variations\\1Test_Inventory_AGATHON TRADING_20211.json",
-        "fileName": "TestCase.xaml"
-      }
-    ],
-    "modernBehavior": false
+    "fileInfoCollection": [],
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "31af2d76-a780-4859-b704-927be8f58823",
+      "uniqueId": "a0eb8082-5705-403d-8f98-56a388ccad4d",
       "input": [],
       "output": []
     }
